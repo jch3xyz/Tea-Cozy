@@ -12,7 +12,7 @@ main {
 }
 
 #mission-container {
-  background-color: white;
+  background-color: white; /* in case img fails to load */
   background-image: url("./Assets/img-mission-background.jpg");
   background-size: cover;
   background-position: center;
@@ -54,4 +54,67 @@ main {
   height: 200px;
   width: 300px;
   padding: 10px;
+}
+
+#locations-container {
+  background-color: white; /* in case img fails to load */
+  background-image: url("./Assets/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#locations {
+  display: flex;
+}
+
+.location {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  margin: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header {
+  height: 69px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: seashell;
+  margin: 0px 10px 0px 10px;
+}
+
+header img {
+  height: 50px;
+  float: left;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+header nav {
+  float: right;
+  padding-top: 15px;
+  padding-left: 10px;
 }

@@ -1,0 +1,48 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: white;
+  opacity: 0.9;
+}
+
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#mission-container {
+  background-color: white;
+  background-image: url("./Assets/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 2000px;
+  display: flex;
+  align-items: center;
+}
+
+.subheaders {
+  background-color: black;
+  text-align: center;
+  flex-grow: 1;
+}
+
+#tea-otm {
+  max-width: 1000px;
+}
+
+#tea-grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#tea-grid > figure {
+  max-height: 200px;
+  max-width: 300px;
+}

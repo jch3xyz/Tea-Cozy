@@ -1,2 +1,2 @@
-# Tea--Cozy
- Codecademy project demonstrating an understanding of CSS Flexbox
+# Tea Cozy
+ Codecademy project demonstrating an understanding of CSS flexbox.
